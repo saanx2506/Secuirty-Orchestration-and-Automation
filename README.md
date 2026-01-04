@@ -1,4 +1,4 @@
-# SOC-Automation-with-Shuffle
+# Security Automation and Orchestration using Shuffle
 This project demonstrates an automated SOC workflow using Shuffle as the SOAR platform. It integrates Wazuh (open-source SIEM/XDR) to detect suspicious events, extracts file hashes from alerts via webhook, enriches them with VirusTotal threat intelligence, and creates alerts in TheHive for incident response.
 
 ![SOC Automation Project](https://github.com/user-attachments/assets/87707d65-c182-4d32-bda5-1b7392c26cb8)
@@ -10,7 +10,7 @@ This project demonstrates an automated SOC workflow using Shuffle as the SOAR pl
 - **Ingestion:** Wazuh forwards alerts to Shuffle via webhook  
 - **Processing:** Shuffle extracts the file hash (SHA-256) from alerts using regex  
 - **Enrichment:** VirusTotal API is queried for hash reputation and threat details  
-- **Response:** An enriched alert is created in TheHive for analyst investigation  
+- **Detection:** An enriched alert is created in TheHive for analyst investigation  
 
 ## Key Features
 
